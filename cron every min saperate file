@@ -1,0 +1,8 @@
+[root@practice-A nas]# cat /tmp/chiru10.sh
+#!/bin/bash
+mkdir /nas/chiru_$(date +%H:%M)
+cp -pvrf /etc/* /nas/chiru_$(date +%H:%M) 
+
+output-
+[root@practice-A nas]# ls
+chiru_16:51  chiru_16:52
